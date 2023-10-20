@@ -1,6 +1,6 @@
 # Amazon S3 – Accès en lecture au bucket sans authentification
 
-Severity: Modéré  
+Séverité: Modéré  
 CVSS: 5.3, https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N&version=3.1
 
 ## Ressources impactées
