@@ -1,6 +1,6 @@
 # Information sensible divulguée (version du serveur web)
 
-Severité: Info  
+Sévérité: Info  
 CVSS: N/A
 
 ## Ressources impactées
