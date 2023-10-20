@@ -3,7 +3,7 @@
 Severité: Info  
 CVSS: N/A
 
-## Resources impactées
+## Ressources impactées
 
 CHANGE ME!
 
