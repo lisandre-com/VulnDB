@@ -3,7 +3,7 @@
 Sévérité: Majeur  
 CVSS: 7.5, https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N&version=3.1
 
-## Resources impactées
+## Ressources impactées
 
 CHANGE ME!
 
