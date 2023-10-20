@@ -1,6 +1,6 @@
 # Librairies contenant des vulnérabilités connues
 
-Séverité: Variable  
+Sévérité: Variable  
 CVSS: N/A
 
 ## Ressources impactées
