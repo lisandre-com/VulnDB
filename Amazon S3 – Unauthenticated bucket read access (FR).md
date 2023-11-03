@@ -21,4 +21,4 @@ Il est recommandé de restreindre l’accès au bucket Amazon S3 à l’applicat
 
 ## Références
 
-* OWASP Testing Guide (WSTG-CONF-11), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/11-Test_Cloud_Storage
+* Guide de test de l'OWASP (WSTG-CONF-11), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/11-Test_Cloud_Storage
