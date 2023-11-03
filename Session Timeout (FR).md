@@ -21,4 +21,4 @@ Il est recommandé de fixer une durée de session appropriée en fonction des do
 
 ## Références
 
-* OWASP Testing Guide (WSTG-SESS-07), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/06-Session_Management_Testing/07-Testing_Session_Timeout
+* Guide de test de l'OWASP (WSTG-SESS-07), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/06-Session_Management_Testing/07-Testing_Session_Timeout
