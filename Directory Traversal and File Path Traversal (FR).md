@@ -30,4 +30,4 @@ S'il est jugé inévitable de transmettre les entrées fournies par l'utilisateu
 ## Références
 
 * https://portswigger.net/web-security/file-path-traversal
-* https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include
+* Guide de test de l'OWASP (WSTG-ATHZ-01), https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include
