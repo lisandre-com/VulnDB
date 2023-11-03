@@ -29,3 +29,4 @@ If it is considered unavoidable to pass user-supplied input to filesystem APIs, 
 ## Reference
 
 * https://portswigger.net/web-security/file-path-traversal
+* OWASP Testing Guide (WSTG-ATHZ-01), https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include
