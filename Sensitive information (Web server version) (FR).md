@@ -27,4 +27,4 @@ Bien que les informations de serveur exposées ne soient pas nécessairement en 
 
 ## Références
 
-* OWASP Testing Guide (WSTG-INFO-02), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server
+* Guide de test de l'OWASP (WSTG-INFO-02), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server
