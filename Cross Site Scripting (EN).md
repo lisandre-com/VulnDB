@@ -1,6 +1,6 @@
 # Cross Site Scripting (XSS)
 
-Severity: Medium
+Severity: Medium  
 CVSS: 4.6, https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N&version=3.1
 
 ## Affected Assets
