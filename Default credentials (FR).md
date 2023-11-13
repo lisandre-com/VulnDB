@@ -21,4 +21,4 @@ Le mot de passe des comptes par défaut doit être changé.
 
 ## Références
 
-* Guide de test de l'OWASP (WSTG-IDNT-04), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account.html
+* Guide de test de l'OWASP (WSTG-ATHN-02), https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials
