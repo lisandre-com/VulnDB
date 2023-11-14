@@ -1,6 +1,6 @@
 # Libraries with known vulnerabilities
 
-Severity: Varies
+Severity: Varies  
 CVSS: N/A
 
 ## Affected Assets
