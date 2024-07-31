@@ -1,4 +1,4 @@
-# Weak SSL or TLS Certificate
+# Weak SSL/TLS Certificate
 
 Severity: Medium  
 CVSS: 6.1, https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:H/Au:N/C:C/I:P/A:N)
