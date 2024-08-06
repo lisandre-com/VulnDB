@@ -13,6 +13,16 @@ Les vulnérabilités de type IDOR (Insecure Direct Object References) surviennen
 
 La cause principale est que l'application prend l'entrée fournie par l'utilisateur et l'utilise pour récupérer un objet sans effectuer de vérifications d'autorisation suffisantes.
 
+Lorsque l'application utilise des identifiants (IDs) imprévisibles mais qu'elle est vulnérable aux attaques IDOR, les attaquants peuvent employer plusieurs stratégies pour découvrir ces identifiants :
+
+* Analyse des logs : lorsque l'application enregistre les IDs d'une manière accessible aux utilisateurs (messages d'erreur, journaux d'audit affichés dans l'interface graphique)
+* Exploitation de modèles prévisibles : lorsque les IDs sont entièrement ou partiellement basés sur des horodatages ou ont des composants incrémentiels
+* "Bruteforce" des IDs
+* Surveillance du trafic réseau
+* Exploitation des "endpoints" vulnérables : "endpoints" qui exposent des IDs d'objet, par exemple par le biais de messages d'erreur détaillés, de champs cachés dans les formulaires ou d'URL 
+* Ingénierie sociale : manipuler des utilisateurs légitimes pour qu'ils révèlent des IDs d'objets, par hameçonnage ou par des interactions directes
+* Intégrations tierces : lorsque des services tiers ou des API enregistrent ou exposent les IDs, les attaquants peuvent cibler ces intégrations
+
 ## État constaté
 
 CHANGE ME!
