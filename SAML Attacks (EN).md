@@ -35,7 +35,7 @@ Always validate SAML signatures. Follow recommendations from OWASP (see referenc
 * **Restrict signed data locations**: Limit where signed elements can appear in XML messages to prevent attackers from moving valid signatures to different parts of the message.
 * **Check unique element references**: Ensure XML elements referenced by signatures are unique and properly linked to prevent duplication or manipulation used in XSW attacks.
 * **Verify entire message integrity**: Check the structure and integrity of the entire XML message, ensuring that the signed portions cover the correct data and nothing is altered.
-* **Transmit messages securely**: Use secure methods like HTTP POST with TLS to protect the SAML message during transmission, reducing the chance of manipulation en route.
+* **Transmit messages securely**: Use secure methods like HTTP POST with TLS to protect the SAML message during transmission, reducing the chance of manipulation in transit.
 
 **SAML XML External Entity (XXE)**:
 
