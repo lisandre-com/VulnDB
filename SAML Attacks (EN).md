@@ -23,11 +23,23 @@ CHANGE ME!
 
 ## Recommendation
 
-**Signature Validation Bypass**: Always validate SAML signatures. Follow recommendations from OWASP (see reference below).
+**Signature Validation Bypass**:
 
-**XML Signature Wrapping (XSW)**: Use strong XML signature validation libraries, enforce proper XML canonicalization, and validate the schema to ensure message integrity. Limit where signed assertions are accepted, verify unique references, and check that only intended data is signed. Validate trust relationships using metadata, and regularly update your SAML libraries. Logging and monitoring can also help detect unusual behavior and potential attacks early. Follow recommendations from OWASP (see reference below).
+Always validate SAML signatures. Follow recommendations from OWASP (see reference below).
 
-**SAML XML External Entity (XXE)**: To prevent these attacks, disable external entity resolution in XML parsers, use secure and up-to-date parsing libraries, validate incoming SAML messages, and only accept messages from trusted sources. These measures help safeguard against XXE vulnerabilities in SAML implementations.
+**XML Signature Wrapping (XSW)**:
+
+* **Use secure XML signature validation libraries**: Utilize strong XML signature validation libraries to ensure that the signed data matches the intended elements, preventing attackers from bypassing security checks.
+* **Apply proper XML canonicalization**: Canonicalize XML data to create a consistent structure, ensuring that any variations in XML format are neutralized and preventing exploitation of those differences.
+* **Enforce XML schema validation**: Validate all SAML messages against the correct XML schema to block the introduction of malicious or unexpected elements used in XSW attacks.
+* **Restrict signed data locations**: Limit where signed elements can appear in XML messages to prevent attackers from moving valid signatures to different parts of the message.
+* **Check unique element references**: Ensure XML elements referenced by signatures are unique and properly linked to prevent duplication or manipulation used in XSW attacks.
+* **Verify entire message integrity**: Check the structure and integrity of the entire XML message, ensuring that the signed portions cover the correct data and nothing is altered.
+* **Transmit messages securely**: Use secure methods like HTTP POST with TLS to protect the SAML message during transmission, reducing the chance of manipulation en route.
+
+**SAML XML External Entity (XXE)**:
+
+To prevent these attacks, disable external entity resolution in XML parsers, use secure and up-to-date parsing libraries, validate incoming SAML messages, and only accept messages from trusted sources. These measures help safeguard against XXE vulnerabilities in SAML implementations.
 
 ## Reference
 
